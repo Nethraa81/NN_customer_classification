@@ -19,12 +19,39 @@ You are required to help the manager to predict the right group of the new custo
 ## DESIGN STEPS:
 
 
-### STEP 1:
-Write your own steps
+## STEP 1: Load Dataset
 
-### STEP 2:
+Load CSV file using pandas.
 
-### STEP 3:
+## STEP 2: Preprocess Data
+
+Handle missing values
+
+Encode categorical features
+
+Normalize numerical features
+
+Convert labels (A,B,C,D → 0,1,2,3)
+
+## STEP 3: Split Dataset
+
+Train-test split (80% train, 20% test)
+
+## STEP 4: Create Neural Network
+
+Define layers using PyTorch.
+
+## STEP 5: Train Model
+
+Use CrossEntropyLoss and Adam optimizer.
+
+## STEP 6: Evaluate Model
+
+Confusion matrix and classification report.
+
+## STEP 7: Predict New Samples
+
+Test with unseen data.
 
 
 ## PROGRAM
